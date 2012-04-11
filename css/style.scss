@@ -1,0 +1,108 @@
+$primary: #666699;
+$highlight: #222299;
+$secondary: #999999;
+
+/* Basics/resets */
+html, body { height: 100%; margin: 0; padding: 0;}
+body { background-color: #fff; color: #000;  }
+
+ul { margin: 0; padding: 0; list-style-type: none; display: block; }
+li { margin: 0; padding: 0; display: inline; }
+
+@font-face {
+  font-family: "Raleway Thin";
+  src: local("Raleway Thin"),
+  url('../fonts/raleway_thin-webfont.woff'),
+  url('../fonts/raleway_thin-webfont.ttf');
+  font-weight: thin;
+  font-style: thin;
+}
+
+/* Vertical centering */
+
+#outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#middle { 
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ie6 #middle, .ie7 #middle {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.ie6 #wrapper, .ie7 #wrapper {
+  position: relative;
+  top: -50%;
+}
+
+/* Classes */
+.clearfix { clear: both; }
+
+.barelink, nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.right { float: right; }
+
+
+/* General rules */
+a {
+    font-weight: bold;
+}
+a:hover, a:active {
+    color: $highlight;
+}
+a:visited, a:link {
+    color: $primary;
+}
+
+/* Specific styles */
+#wrapper {
+    text-align:left;
+    margin: 0px 30px;
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom: 1px solid $highlight;
+    position: relative;
+}
+footer {
+    border-top: 1px solid $highlight;
+    position: relative;
+}
+
+#site_title {
+    font-family: "Raleway Thin", sans-serif;
+    font-size: 36px;
+    position: relative;
+    left: -10px;
+    top: 5px;
+}
+
+nav li {
+    margin: 0px 2px;
+}
+
+#topnav {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#bottomnav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
