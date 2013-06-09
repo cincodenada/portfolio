@@ -1,6 +1,9 @@
-$primary: #666699;
-$highlight: #222299;
+/* From http://www.colourlovers.com/palette/418420/Shoot_the_Works */
+$primary: #123A70;
+$highlight: #274F92;
 $secondary: #999999;
+$splash: #FB571A;
+$background: #FFFFFF;
 
 /* Basics/resets */
 html, body { height: 100%; margin: 0; padding: 0;}
@@ -48,17 +51,13 @@ li { margin: 0; padding: 0; display: inline; }
 /* Classes */
 .clearfix { clear: both; }
 
-.barelink, nav li a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .right { float: right; }
 
 
 /* General rules */
 a {
     font-weight: bold;
+    text-decoration: none;
 }
 a:hover, a:active {
     color: $highlight;
@@ -68,6 +67,25 @@ a:visited, a:link {
 }
 
 /* Specific styles */
+#title_main {
+    color: $primary;
+    font-weight: bold;
+}
+
+#title_second {
+    color: $secondary;
+}
+
+.barelink {
+    font-weight: normal;
+    color: inherit;
+}
+
+.curpage {
+    color: $highlight;
+    font-weight: bold;
+}
+
 #wrapper {
     text-align:left;
     margin: 0px 30px;
