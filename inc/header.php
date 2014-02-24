@@ -40,7 +40,8 @@
             <nav id="topnav">
                 <?php
                     $pages = array(
-                        'projects' => '/projects',
+                        'who I am' => '/about',
+                        'what I\'ve done' => '/projects',
                         'portfolio' => '/portfolio',
                         'wiki' => '/wiki'
                     );

@@ -65,6 +65,12 @@ a:hover, a:active {
 a:visited, a:link {
   color: #123a70; }
 
+body {
+  color: #444; }
+
+h1, h2, h3, h4, h5 {
+  color: #123a70; }
+
 /* Specific styles */
 #title_main {
   color: #123a70;

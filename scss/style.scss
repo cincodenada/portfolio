@@ -66,6 +66,14 @@ a:visited, a:link {
     color: $primary;
 }
 
+body {
+    color: #444;
+}
+
+h1, h2, h3, h4, h5 {
+    color: $primary;
+}
+
 /* Specific styles */
 #title_main {
     color: $primary;
