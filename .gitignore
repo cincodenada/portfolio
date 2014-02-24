@@ -1,3 +1,7 @@
 *~
 *.sw[lmnop]
 .sass-cache
+
+# Composer-managed things
+composer.lock
+vendor

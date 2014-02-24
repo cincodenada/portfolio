@@ -42,7 +42,7 @@
                     $pages = array(
                         'who I am' => '/about',
                         'what I\'ve done' => '/projects',
-                        'portfolio' => '/portfolio',
+                        //'portfolio' => '/portfolio',
                         'wiki' => '/wiki'
                     );
                     $matches = array();
@@ -52,7 +52,7 @@
                       $subpage = $matches['subpage'];
                     }
                 ?>
-                <ul>
+                <ul class="nav">
                 <?php foreach($pages as $title => $url): ?>
                     <li>
                         <?php if($title == $curpage): ?>

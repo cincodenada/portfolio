@@ -18,10 +18,10 @@ work, and putting them back together as long as I can remember.  I'm inexhaustib
 and spend a lot of time thinking about things.
 </p>
 <p>
-My internet presence is wide and scattered.  Currently most of my blogging happens at 
-<a href="http://cincodenada.tumblr.com">my Tumblr</a>.  I have 
+My internet presence is wide and scattered.  Currently most of my blogging happens at
+<a href="http://cincodenada.tumblr.com">my Tumblr</a>.  I have
 <a href="http://twitter.com/cincodenada">a Twitter handle</a> that I rarely use these days,
-and I have infrequently-updated blogs for my 
+and I have infrequently-updated blogs for my
 <a href="http://pkconfessional.blogspot.com/">philosophical thoughts</a> and various
 <a href="http://commacommacrash.com/">more geeky happenings</a>.  You can, of course, also
 find me <a href="http://facebook.com/cincodenada">on Facebook</a>.

@@ -124,3 +124,12 @@ header ul {
   position: absolute;
   right: 0px;
   top: 0px; }
+
+.articleimg {
+  float: left;
+  margin: 0px 20px 20px 0px; }
+
+ul.nav a:before {
+  content: '['; }
+ul.nav a:after {
+  content: ']'; }
