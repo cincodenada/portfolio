@@ -2,3 +2,6 @@
 title: Minecraft Grass-growing Simulator
 link: http://cincodenada.com/grassgrower/
 img: grassgrower.png
+summary: |
+  A project to simulate many runs of the grass-growing dynamics of Minecraft
+  in a given layout, and give summary statistics about them.

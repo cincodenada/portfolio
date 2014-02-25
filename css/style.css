@@ -66,6 +66,7 @@ a:visited, a:link {
   color: #123a70; }
 
 body {
+  background-color: white;
   color: #444; }
 
 h1, h2, h3, h4, h5 {
@@ -133,3 +134,50 @@ ul.nav a:before {
   content: '['; }
 ul.nav a:after {
   content: ']'; }
+
+ul.tile_list li {
+  z-index: 0;
+  position: relative;
+  width: 230px;
+  height: 230px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  border-radius: 5px; }
+  ul.tile_list li h2, ul.tile_list li h3 {
+    margin-top: 0px; }
+  ul.tile_list li .imgcover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 250px;
+    height: 250px;
+    z-index: -1; }
+ul.tile_list:before, ul.tile_list:after {
+  content: "";
+  display: table; }
+ul.tile_list:after {
+  clear: both; }
+
+/* From http://www.colourlovers.com/palette/2271092/Cry_If_You_Want_To */
+/* From http://www.colourlovers.com/palette/1673253/my_heart_says_yes */
+body.dark {
+  background-color: #101e2b;
+  color: #dce0e1; }
+  body.dark a:hover, body.dark a:active {
+    color: #dce0e1; }
+  body.dark a:visited, body.dark a:link {
+    color: #76848f; }
+  body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5 {
+    color: #76848f; }
+  body.dark #title_main {
+    color: #76848f; }
+  body.dark #title_second {
+    color: #5a656b; }
+  body.dark .curpage {
+    color: #dce0e1; }
+  body.dark header, body.dark footer {
+    border-color: #dce0e1; }
+  body.dark ul.tile_list li .imgcover {
+    background: rgba(0, 0, 0, 0.9); }

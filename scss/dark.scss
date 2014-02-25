@@ -1,0 +1,40 @@
+/* From http://www.colourlovers.com/palette/2271092/Cry_If_You_Want_To */
+$primary: #60689E;
+$highlight: #274F92;
+$secondary: #8D96D9;
+$splash: #FB571A;
+$background: #171313;
+
+/* From http://www.colourlovers.com/palette/1673253/my_heart_says_yes */ 
+$primary: #76848F;
+$highlight: #DCE0E1;
+$secondary: #5A656B;
+$splash: #FB571A;
+$background: #101E2B;
+
+body.dark {
+  background-color: $background;
+  color: $highlight;
+
+  a:hover, a:active { color: $highlight; }
+  a:visited, a:link { color: $primary; }
+
+  h1, h2, h3, h4, h5 { color: $primary; }
+
+  #title_main { color: $primary; }
+  #title_second { color: $secondary; }
+
+  .curpage { color: $highlight; }
+
+  header, footer {
+    border-color: $highlight;
+  }
+
+  ul.tile_list {
+    li {
+      .imgcover {
+        background: rgba(0,0,0,0.9);
+      }
+    }
+  }
+}
