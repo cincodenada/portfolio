@@ -3,10 +3,10 @@
 body.dark {
   background-color: #101e2b;
   color: #dce0e1; }
-  body.dark a:hover, body.dark a:active {
-    color: #dce0e1; }
   body.dark a:visited, body.dark a:link {
     color: #76848f; }
+  body.dark a:hover, body.dark a:active {
+    color: #dce0e1; }
   body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5 {
     color: #76848f; }
   body.dark #title_main {
@@ -17,5 +17,7 @@ body.dark {
     color: #dce0e1; }
   body.dark header, body.dark footer {
     border-color: #dce0e1; }
-  body.dark ul.tile_list li .imgcover {
-    background: rgba(0, 0, 0, 0.9); }
+  body.dark ul.tile_list li {
+    text-shadow: black 1px 1px; }
+    body.dark ul.tile_list li .imgcover {
+      background: rgba(0, 0, 0, 0.85); }

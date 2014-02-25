@@ -16,8 +16,8 @@ body.dark {
   background-color: $background;
   color: $highlight;
 
-  a:hover, a:active { color: $highlight; }
   a:visited, a:link { color: $primary; }
+  a:hover, a:active { color: $highlight; }
 
   h1, h2, h3, h4, h5 { color: $primary; }
 
@@ -33,8 +33,9 @@ body.dark {
   ul.tile_list {
     li {
       .imgcover {
-        background: rgba(0,0,0,0.9);
+        background: rgba(0,0,0,0.85);
       }
+      text-shadow: black 1px 1px;
     }
   }
 }

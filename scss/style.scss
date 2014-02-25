@@ -55,15 +55,19 @@ li { margin: 0; padding: 0; display: inline; }
 
 
 /* General rules */
+body {
+  font-family: sans-serif;
+}
+
 a {
   font-weight: bold;
   text-decoration: none;
 }
-a:hover, a:active {
-  color: $highlight;
-}
 a:visited, a:link {
   color: $primary;
+}
+a:hover, a:active {
+  color: $highlight;
 }
 
 body {
@@ -98,7 +102,6 @@ h1, h2, h3, h4, h5 {
 #wrapper {
   text-align:left;
   margin: 0px 30px;
-  font-family: sans-serif;
 }
 
 header {
@@ -162,6 +165,7 @@ ul.tile_list {
     padding: 10px;
     float: left;
     border-radius: 5px;
+    text-shadow: white 1px 1px;
 
     h2,h3 { margin-top: 0px; }
 
@@ -169,10 +173,11 @@ ul.tile_list {
       position: absolute;
       top:0px;
       left:0px;
-      background: rgba(255,255,255,0.9);
+      background: rgba(255,255,255,0.75);
       width: 250px;
       height: 250px;
       z-index: -1;
+      border-radius: 4px;
     }
   }
   &:before,
@@ -182,6 +187,17 @@ ul.tile_list {
   }
   &:after {
     clear: both;
+  }
+}
+
+#the_lights {
+  position: absolute;
+  right:0px;
+  top:0px;
+  padding: 5px;
+  z-index: 10;
+  a {
+    font-size: 80%;
   }
 }
 
