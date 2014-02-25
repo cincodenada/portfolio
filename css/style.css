@@ -67,7 +67,7 @@ a:hover, a:active {
 
 body {
   font-family: sans-serif;
-  background-color: #f0eeff;
+  background-color: #eaedf4;
   color: #444; }
 
 h1, h2, h3, h4, h5 {
@@ -92,6 +92,10 @@ h1, h2, h3, h4, h5 {
 #wrapper {
   text-align: left;
   margin: 0px 30px; }
+
+div[role='main'] {
+  padding: 1px 10px;
+  background: white; }
 
 header {
   border-bottom: 1px solid #274f92;
@@ -186,6 +190,8 @@ body.dark {
     color: #76848f; }
   body.dark #title_second {
     color: #5a656b; }
+  body.dark div[role='main'] {
+    background: #091118; }
   body.dark .curpage {
     color: #dce0e1; }
   body.dark header, body.dark footer {

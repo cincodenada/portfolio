@@ -24,6 +24,8 @@ body.dark {
   #title_main { color: $primary; }
   #title_second { color: $secondary; }
 
+  div[role='main'] { background: darken($background, 5%); }
+
   .curpage { color: $highlight; }
 
   header, footer {

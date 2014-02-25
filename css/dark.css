@@ -13,6 +13,8 @@ body.dark {
     color: #76848f; }
   body.dark #title_second {
     color: #5a656b; }
+  body.dark div[role='main'] {
+    background: #091118; }
   body.dark .curpage {
     color: #dce0e1; }
   body.dark header, body.dark footer {
