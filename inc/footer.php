@@ -2,7 +2,10 @@
         <footer>
             <nav id="bottomnav">
                 <ul>
-                    <li><a href="/contact">contact</a></li>
+                    <li><a href="http://github.com/cincodenada">github</a></li>
+                    <li><a href="http://twitter.com/cincodenada">twitter</a></li>
+                    <li><a href="http://facebook.com/cincodenada">facebook</a></li>
+                    <li><a href="mailto:cincodenada@gmail.com">email</a></li>
                 </ul>
             </nav>
         </footer>
