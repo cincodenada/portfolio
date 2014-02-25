@@ -20,6 +20,7 @@
 
     <!-- scripts concatenated and minified via build script -->
     <script src="/js/plugins.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
     <script src="/js/script.js"></script>
     <!-- end scripts -->
 

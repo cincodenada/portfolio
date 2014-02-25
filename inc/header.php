@@ -29,8 +29,9 @@
              Create your own custom Modernizr build: www.modernizr.com/download/ -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
-<body class="dark">
-    <div id="the_lights"><a href="#">Light</a></div>
+<?php $bgtheme = empty($_COOKIE['bgtheme']) ? 'dark' : $_COOKIE['bgtheme']; ?>
+<body <?=($bgtheme == 'dark') ? 'class="dark"' : ''?>>
+    <div id="the_lights"><a href="#"><?=($bgtheme == 'dark') ? 'Light' : 'Dark' ?></a></div>
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
              chromium.org/developers/how-tos/chrome-frame-getting-started -->
     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
