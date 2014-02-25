@@ -4,7 +4,7 @@
 ?>
 <?php include('lib/utility.php') ?>
 <?php include('inc/header.php') ?>
-<h3>I am an engineer, always building, always learning, always curious.</h3>
+<h3>I am an engineer, always building, always curious, always learning.</h3>
 <ul class="tile_list">
   <?php foreach(glob('projects/*.yaml') as $yaml): ?>
   <?php $info = yaml_parse_file($yaml) ?>

@@ -3,7 +3,7 @@ $primary: #123A70;
 $highlight: #274F92;
 $secondary: #999999;
 $splash: #FB571A;
-$background: #FFFFFF;
+$background: #f0eeff;
 
 /* Basics/resets */
 html, body { height: 100%; margin: 0; padding: 0;}
@@ -55,10 +55,6 @@ li { margin: 0; padding: 0; display: inline; }
 
 
 /* General rules */
-body {
-  font-family: sans-serif;
-}
-
 a {
   font-weight: bold;
   text-decoration: none;
@@ -71,6 +67,7 @@ a:hover, a:active {
 }
 
 body {
+  font-family: sans-serif;
   background-color: $background;
   color: #444;
 }
