@@ -16,16 +16,16 @@
 <div role="main">
 <h2>Projects</h2>
 <h4>...here are a few of the things I've been working on</h4>
-<br/>
 <ul class="tile_list">
   <?php foreach(glob('projects/*.yaml') as $yaml): ?>
   <?php $info = yaml_parse_file($yaml) ?>
   <?php $pi = pathinfo($yaml); $name = $pi['filename']; ?>
   <li style="background-image: url(img/<?=get_thumb($info['img'],250,250)?>)">
-    <div class="imgcover">
-    </div>
-      <h2><a href="/projects/<?=$name?>"><?=$info['title']?></a></h2>
-      <?=empty($info['summary']) ? '' : $info['summary']?>
+    <a href="/projects/<?=$name?>">
+      <h2><?=$info['title']?></h2>
+      <span class="link_summary"><?=empty($info['summary']) ? '' : $info['summary']?></span>
+    </a>
+    <div class="imgcover"></div>
   </li>
   <?php endforeach ?>
 </ul>
