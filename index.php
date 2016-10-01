@@ -4,7 +4,19 @@
 ?>
 <?php include('lib/utility.php') ?>
 <?php include('inc/header.php') ?>
-<h3>I am an engineer, always building, always curious, always learning.</h3>
+<div id="intro">
+  <p>
+    I am an engineer, a coder, a humanist.  I've been taking things apart, figuring out how they
+    work, and putting them back together as long as I can remember.  I'm inexhaustibly curious,
+    and spend a lot of time thinking about how the world works.  You'll find me across the web
+    as cincodenada.
+  </p>
+</div>
+    
+<div role="main">
+<h2>Projects</h2>
+<h4>...here are a few of the things I've been working on</h4>
+<br/>
 <ul class="tile_list">
   <?php foreach(glob('projects/*.yaml') as $yaml): ?>
   <?php $info = yaml_parse_file($yaml) ?>
@@ -17,4 +29,5 @@
   </li>
   <?php endforeach ?>
 </ul>
+</div>
 <?php include('inc/footer.php') ?>

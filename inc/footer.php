@@ -9,7 +9,7 @@
                 </ul>
             </nav>
         </footer>
-    </div></div></div>
+    </div>
 
 
     <!-- JavaScript at the bottom for fast page loading -->

@@ -29,49 +29,20 @@
              Create your own custom Modernizr build: www.modernizr.com/download/ -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
-<?php $bgtheme = empty($_COOKIE['bgtheme']) ? 'dark' : $_COOKIE['bgtheme']; ?>
+<?php $bgtheme = empty($_COOKIE['bgtheme']) ? '' : $_COOKIE['bgtheme']; ?>
 <body <?=($bgtheme == 'dark') ? 'class="dark"' : ''?>>
     <div id="the_lights"><a href="#"><?=($bgtheme == 'dark') ? 'Light' : 'Dark' ?></a></div>
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
              chromium.org/developers/how-tos/chrome-frame-getting-started -->
     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
     <!-- Vertical centering -->
-    <div id="outer"><div id="middle"><div id="wrapper">
-        <header> 
-            <a id="site_title" class="barelink" href="/"><span id="title_main">joel</span><span id="title_second">bradshaw</span></a>
-            <nav id="topnav">
-                <?php
-                    $pages = array(
-                        'who I am' => '/about',
-                        'what I\'ve done' => '/projects',
-                        //'portfolio' => '/portfolio',
-                        'wiki' => '/wiki'
-                    );
-                    $matches = array();
-                    $curpage = $subpage = null;
-                    if(preg_match('#/(?P<page>\w+)(?:/(?P<subpage>\w+))?(?P<extra>.*)#',$_SERVER['REQUEST_URI'],$matches)) {
-                      $curpage = $matches['page'];
-                      $subpage = $matches['subpage'];
-                    }
-                ?>
-                <ul class="nav">
-                <?php foreach($pages as $title => $url): ?>
-                    <li>
-                        <?php if($title == $curpage): ?>
-                            <span class="curpage">
-                        <?php else: ?>
-                            <a href="<?php echo $url ?>">
-                        <?php endif ?>
-                            <?php echo $title ?>
-                        <?php if($title == $curpage): ?>
-                            </span>
-                        <?php else: ?>
-                            </a>
-                        <?php endif ?>
-                    </li>
-                <?php endforeach ?>
-                </ul>
-            </nav>
-            <div class="clearfix"></div>
+    <div id="wrapper">
+        <header>
+            <a id="title" class="barelink" href="/"><span id="title_main">joel</span> <span id="title_second">bradshaw</span></a>
+            <br/>
+            <span id="subtitle">
+                maker • tinkerer • developer
+            </span>
         </header>
-        <div role="main">
+        <hr/>
+

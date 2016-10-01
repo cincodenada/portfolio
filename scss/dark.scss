@@ -19,7 +19,7 @@ body.dark {
   a:visited, a:link { color: $primary; }
   a:hover, a:active { color: $highlight; }
 
-  h1, h2, h3, h4, h5 { color: $primary; }
+  p, h1, h2, h3, h4, h5 { color: $primary; }
 
   #title_main { color: $primary; }
   #title_second { color: $secondary; }
@@ -28,7 +28,7 @@ body.dark {
 
   .curpage { color: $highlight; }
 
-  header, footer {
+  header, footer, hr {
     border-color: $highlight;
   }
 
