@@ -1,6 +1,8 @@
 {
     "require": {
         "michelf/php-markdown": "1.4.*",
-        "stojg/crop": "*"
+        "stojg/crop": "*",
+        "ext-imagick": "*",
+        "ext-gd": "*"
     }
 }

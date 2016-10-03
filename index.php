@@ -19,7 +19,7 @@
 <ul class="tile_list">
   <?php $projects = yaml_parse_file('projects/projects.yaml') ?>
   <?php foreach($projects as $name => $info): ?>
-  <li style="background-image: url(img/<?=get_thumb($info['img'],250,250)?>)">
+  <li style="background-image: url(img/<?=get_thumb("$name.png",250,250)?>)">
     <a href="/projects/<?=$name?>">
       <h2><?=$info['title']?></h2>
       <span class="link_summary"><?=empty($info['summary']) ? '' : $info['summary']?></span>
