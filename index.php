@@ -17,9 +17,8 @@
 <h2>Projects</h2>
 <h4>...here are a few of the things I've been working on</h4>
 <ul class="tile_list">
-  <?php foreach(glob('projects/*.yaml') as $yaml): ?>
-  <?php $info = yaml_parse_file($yaml) ?>
-  <?php $pi = pathinfo($yaml); $name = $pi['filename']; ?>
+  <?php $projects = yaml_parse_file('projects/projects.yaml') ?>
+  <?php foreach($projects as $name => $info): ?>
   <li style="background-image: url(img/<?=get_thumb($info['img'],250,250)?>)">
     <a href="/projects/<?=$name?>">
       <h2><?=$info['title']?></h2>
