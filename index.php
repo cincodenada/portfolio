@@ -8,7 +8,7 @@
   <p>
     I am an engineer, a coder, a humanist.  I've been taking things apart, figuring out how they
     work, and putting them back together as long as I can remember.  I'm inexhaustibly curious,
-    and spend a lot of time thinking about how the world works.  You'll find me across the web
+    and am always learning more about how the world works.  You'll find me across the web
     as cincodenada.
   </p>
 </div>

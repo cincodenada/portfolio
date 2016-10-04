@@ -1,4 +1,15 @@
 ---
+thingtracker:
+  title: ThingTracker
+  link: https://github.com/cincodenada/thingtracker
+  summary: |
+    A simple, flexible Android app to track pretty much anything
+simplerockets:
+  title: SimpleRockets Viewer
+  link: http://sr.5of0.com
+  summary: |
+    An online viewer for SimpleRockets, a 2D space-simulation game that only
+    had an in-app viewer
 genderbread:
   title: Genderbread 2.0 Interactive
   link: http://cincodenada.com/genderbread/

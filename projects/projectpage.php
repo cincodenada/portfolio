@@ -7,7 +7,7 @@ $pagedata = yaml_parse_file("$pagename.yaml");
 <?php include('../inc/header.php') ?>
 <div class="sidebar">
 <h1><a href="<?=$pagedata['link']?>"><?=$pagedata['title']?></a></h1>
-<img class="articleimg" src="/img/<?=$pagedata['img']?>"/>
+<img class="articleimg" src="/img/<?=$pagename?>.png"/>
 <?=Markdown::defaultTransform(file_get_contents("$pagename.md")) ?>
 <?php include('../inc/projects_footer.php') ?>
 </div>
