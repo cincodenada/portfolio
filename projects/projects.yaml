@@ -1,4 +1,14 @@
 ---
+ctlpro:
+  title: Controller Pro
+  link: http://5of0.com/ctlpro
+  summary: |
+    Plug in any combo of up to 4 NES, SNES, or N64 controllers, use them as USB HID joysticks.
+mapthing:
+  title: MapThing
+  link: https://github.com/cincodenada/mapthing
+  summary: |
+    An ever-evolving tool to browse, categorize, and analyze my personal GPS location history
 thingtracker:
   title: ThingTracker
   link: https://github.com/cincodenada/thingtracker
@@ -17,7 +27,7 @@ genderbread:
     An interactive version of Genderbread 2.0, a project to
     creatively explain and express gender identity
 grassgrower:
-  title: Minecraft Grass-growing Simulator
+  title: Minecraft Grass‑growing Simulator
   link: http://cincodenada.com/grassgrower/
   summary: |
     A project to simulate many runs of the grass-growing dynamics of Minecraft
@@ -29,4 +39,8 @@ neighborhoodmapper:
     A collaborative site to map out the neighborhoods in your town:
     what they're called, where they are, what their boundaries are,
     creating a collective consensus of neighorhoods, names, and borders.
-
+nanograph:
+  title: NanoGraph
+  link: https://github.com/cincodenada/nanograph
+  summary: |
+    A NaNo-style graph, any time of the year, for people that like having a graph to keep them on track
