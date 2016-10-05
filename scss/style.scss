@@ -183,6 +183,7 @@ ul.tile_list {
     float: left;
     border-radius: 5px;
     text-shadow: white 1px 1px;
+    overflow: hidden;
 
     a {
       display: block;
@@ -197,14 +198,20 @@ ul.tile_list {
 
     h2,h3 { margin-top: 0px; }
 
-    .imgcover {
+    .fill {
       position: absolute;
       top:0px;
       left:0px;
+      width: $tile_size;
+      height: $tile_size;
+    }
+    img.fill {
+      filter: blur(2px);
+      z-index: -2;
+    }
+    .imgcover {
       background: $background_alt;
-      opacity: 0.75;
-      width: 250px;
-      height: 250px;
+      opacity: 0.8;
       z-index: -1;
       border-radius: 4px;
     }
@@ -212,6 +219,7 @@ ul.tile_list {
       .imgcover {
         opacity: 0.9;
       }
+      img.fill { filter: blur(1px); }
       a {
         color: $highlight;
       }
