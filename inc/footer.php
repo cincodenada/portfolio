@@ -1,4 +1,3 @@
-        </div>
         <footer>
             <nav id="bottomnav">
                 <ul>
