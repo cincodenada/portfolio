@@ -109,6 +109,9 @@ div[role='main'] {
     @media (max-width: $tile_size*2 + ($tile_margin+$tile_padding+$side_margin)*2) {
       max-width: $tile_size*1+($tile_margin+$tile_padding)*2;
     }
+    &.project_page {
+      text-align: left;
+    }
 }
 
 header {
@@ -163,6 +166,7 @@ header ul {
 .articleimg {
   float: left;
   margin: 0px 20px 20px 0px;
+  max-width: 500px;
 }
 
 ul.nav {
